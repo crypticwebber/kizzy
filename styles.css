@@ -1,0 +1,106 @@
+*{
+    font-family: sans-serif;
+}
+.heading {
+   width: 100%;
+   height: 60px;
+   border: 0px solid red;
+   display: flex;
+   background-image: linear-gradient(45deg, rgb(2, 59, 133), rgb(2, 77, 64), rgb(16, 119, 214));
+}
+#logo {
+   width: 40%;
+   height: 60px;
+   color: #fff;
+   margin-left: 1rem;
+}
+.tabs {
+   width: 60%;
+   height: 100%;
+   color: #fff;
+}
+.heading .tabs ul {
+   display: flex;
+   justify-content: space-around;
+}
+.heading .tabs ul li {
+   list-style: none;
+}
+
+.heading .tabs ul li a {
+   text-decoration: none;
+   font-size: 20px;
+   color: #fff;
+}
+.heading .tabs ul li :hover .hover{
+   color: black;
+   display: block;
+   background-color: white;
+   border-radius: 0.5rem;
+   text-align: center;
+}
+.hover{
+   width: 150px;
+   height: 300px;
+   position: absolute;
+   display: none;
+   color: #fff;
+}
+.container{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+}
+.row {
+   width: 100%;
+   height: 100vh;
+   background-color: #000;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.col {
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    /* display: flex;
+    justify-content: center; */
+}
+.container .row .col h1{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+.container .row .col h4{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5rem;
+    color: rgb(16, 119, 214);
+}
+.buttons{
+   display: flex;
+   justify-content: center;
+}
+.button-e{
+   width: 200px;
+   height: 40px;
+   text-decoration: none;
+   font-size: 20px;
+   /* text-align: center; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #fff;
+   color: #000;
+   margin-right: 10px;
+   border-radius: 50px;
+   margin-top: 5rem;
+   transition: 0.5s ease-in;
+}
+.buttons :hover{
+   color: white;
+   background-color: rgb(16, 119, 214);
+}
